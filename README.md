@@ -4,7 +4,7 @@ Welcome Candidate and thank you for taking the time to complete the take-home ch
 
 Once you have completed your solution, please reply with a link to a github repository and instructions on how to install / run the application
 
-Good luck and if you have questions, please reach out to us at **soroush@rize-ft.com**
+Good luck and if you have questions, please reach out to us at **soroush@trylynk.com**
 
 ---
 
