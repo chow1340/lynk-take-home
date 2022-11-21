@@ -17,6 +17,7 @@ We're evaluating your ability to take a set of requirements and spike a holistic
 demonstrates craftsmanship, thoughtfulness and good architectural 
 design. If you want to impress us, build something that is beautiful, 
 highest performant, intuitive and easy to debug/test/extend 😃 .
+Extra points if you can also add tests
 
 
 Ideally your solution would have some way to run locally so we can fully analyze your efforts.
@@ -64,4 +65,4 @@ Design and implement a Java REST API that CRUDs artists.
                - DELETE      /artists/:id     (Delete)
 - Getting a list of artists should be filterable. Ability to Filter by **category, birthday-month, search** (search -> can search by first_name or last_name, it should also partial search, ex. given search=vin should bring up kevin, if we have a kevin in the system) , you should also be able to filter by one, or more filters, for example search and category
 - Try to make sure your solution is the best performant, you can make any changes/additions you like to DB schema/indexes, application.properties, or any spring/java classes
-- **Assume** that we have a big collection of artists in the DB, make sure things are performant based on that assumption, however there is no need for pagination
+- **Assume** that we have a big collection of artists in the DB, make sure things are performant based on that assumption
