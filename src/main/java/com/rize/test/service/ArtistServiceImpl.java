@@ -19,7 +19,7 @@ import java.util.Optional;
 @Service
 public class ArtistServiceImpl implements ArtistService {
 
-    public static final int LIMIT = 100;
+    public static final int LIMIT = 1000;
     @PersistenceContext
     private EntityManager entityManager;
     private final ArtistRepository artistRepository;

@@ -66,3 +66,21 @@ Design and implement a Java REST API that CRUDs artists.
 - Getting a list of artists should be filterable. Ability to Filter by **category, birthday-month, search** (search -> can search by first_name or last_name, it should also partial search, ex. given search=vin should bring up kevin, if we have a kevin in the system) , you should also be able to filter by one, or more filters, for example search and category
 - Try to make sure your solution is the best performant, you can make any changes/additions you like to DB schema/indexes, application.properties, or any spring/java classes
 - **Assume** that we have a big collection of artists in the DB, make sure things are performant based on that assumption
+
+
+
+# Using the APIs
+We can start up the application either using an IDE or using `./gradlew bootrun`
+I personally used postman the call the apis. The parameters are named the same as the requirements
+given above
+Creating artist:
+![img.png](img.png)
+
+Deleting artist:
+![img_1.png](img_1.png)
+
+Getting all artist: (with filters)
+![img_2.png](img_2.png)
+
+Getting single artist: Using a path variable for this one
+![img_3.png](img_3.png)
